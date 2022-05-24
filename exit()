@@ -1,0 +1,59 @@
+[33mcommit 6521b742ceec3c84d394be0da96e373303022b0b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: prasanna-m-dev <pras13.ece@gmail.com>
+Date:   Tue May 24 14:07:04 2022 +0530
+
+    changes
+
+[33mcommit aa61ff168b0d9fcb433f82fbf152108e752acd4e[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Piyush Agarwal (Roadside Coder) <51760520+piyush-eon@users.noreply.github.com>
+Date:   Thu Oct 14 11:06:03 2021 +0530
+
+    Update README.md
+
+[33mcommit 0ea4e9a0376e302ad325d73339ec9d32b9f5c219[m
+Author: Piyush55dude <piyushagarwalvo@gmail.com>
+Date:   Wed Jul 7 12:26:00 2021 +0530
+
+    Made Mobile Responsive
+
+[33mcommit 09ccc379d7780a4517f51f62e1844e485343d340[m
+Author: Piyush Agarwal (Roadside Coder) <51760520+piyush-eon@users.noreply.github.com>
+Date:   Wed Jul 7 00:27:44 2021 +0530
+
+    Update README.md
+
+[33mcommit 5b01fb82766f89d555f2c8421a260e2ed1c44547[m
+Author: Piyush55dude <piyushagarwalvo@gmail.com>
+Date:   Mon Jul 5 16:20:02 2021 +0530
+
+    Search Logic
+
+[33mcommit b507cb20ca62836e7bc775fb9cc9ac1f2583eb50[m
+Author: Piyush55dude <piyushagarwalvo@gmail.com>
+Date:   Mon Jul 5 15:06:21 2021 +0530
+
+    Implemented Transform Logic
+
+[33mcommit b9e5b89c5553800238d92055d0f09590d867ff98[m
+Author: Piyush55dude <piyushagarwalvo@gmail.com>
+Date:   Sun Jul 4 00:00:45 2021 +0530
+
+    reducer for filter switches
+
+[33mcommit 87bf2705097f2f8262ff261b7f946e642c82df98[m
+Author: Piyush55dude <piyushagarwalvo@gmail.com>
+Date:   Sat Jul 3 21:04:47 2021 +0530
+
+    useReducer for add, remove and change cart quantity
+
+[33mcommit a375dad0f4cdd6041585eaf8349f2dcc2c862656[m
+Author: Piyush Agarwal (Roadside Coder) <51760520+piyush-eon@users.noreply.github.com>
+Date:   Fri Jul 2 16:22:23 2021 +0530
+
+    Update README.md
+
+[33mcommit 0fd178dcf2a98fd7a0e03400b03e0eeb23557043[m
+Author: Piyush55dude <piyushagarwalvo@gmail.com>
+Date:   Fri Jul 2 16:18:25 2021 +0530
+
+    Context API only part done
