@@ -2,6 +2,7 @@ import { CartState } from "../context/Context";
 import Filters from "./Filters";
 import SingleProduct from "./SingleProduct";
 
+
 const Home = () => {
   const {
     state: { products },
@@ -39,14 +40,18 @@ const Home = () => {
 
     return sortedProducts;
   };
+ 
 
   return (
     <div className="home">
       <Filters />
       <div className="productContainer">
         {transformProducts().map((prod) => (
-          <SingleProduct prod={prod} key={prod.id} />
+          <>
+            <SingleProduct prod={prod} key={prod.id} />
+          </>
         ))}
+        
       </div>
     </div>
   );
