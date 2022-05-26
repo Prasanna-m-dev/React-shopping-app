@@ -3,12 +3,12 @@ import { CartState } from "../context/Context";
 import Rating from "./Rating";
 import { Link } from "react-router-dom";
 
-const SingleProduct = ({ prod, hide }) => {
+const SingleProduct = ({ prod, show = true }) => {
   const {
     state: { cart },
     dispatch,
   } = CartState();
-
+  console.log(show);
   return (
     <div className="products">
       <Card>
@@ -49,12 +49,24 @@ const SingleProduct = ({ prod, hide }) => {
               {!prod.inStock ? "Out of Stock" : "Add to Cart"}
             </Button>
           )}
-          
-          <Link to={`/products/${prod.id}`}>
-              <Button style={{ width: "", margin: "0 10px" }}>
-                  More details
+          {show ? (
+            <Link to={`/products/${prod.id}`}>
+              <Button 
+                variant="warning"
+                style={{ width: "", margin: "0 10px" }}>
+                More details
               </Button>
-          </Link>
+            </Link>
+          ) : (
+            <Link to={'/'}>
+              <Button 
+                variant="secondary"
+                style={{ width: "", margin: "0 10px" }}>
+                Go Back!
+              </Button>
+            </Link>
+          )}
+          
         </Card.Body>
       </Card>
     </div>

@@ -1,9 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 import {useParams} from "react-router-dom";
 import { CartState } from "../context/Context";
 import SingleProduct from "./SingleProduct";
 
 function ProductDetail() {
+    const [show, setShow]=useState(false);
     const {productId} = useParams();
     console.log(productId);
     const {
@@ -17,7 +18,7 @@ function ProductDetail() {
         
     return (
         <div>
-            <SingleProduct prod={prodDetails}/>
+            <SingleProduct prod={prodDetails} key={prodDetails.id} show = {show}/>
         </div>
     )
 }
